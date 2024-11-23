@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+
+    <h1 class="bg-dark text-light align-text-middle text-lg-center p-4"> To Do List </h1>
+    
+    <div class="container p-4">
+        
+        <div class="container">
+            <div class="row border border-4 border-black p-2">
+
+              <div class="col bg-success p-2 text-lg-center display-4 border border-5">Complete Task</div>
+              <div class="col bg-warning p-2 text-lg-center display-4 border border-5">To Do List</div>
+
+              <div class="w-100"></div>
+
+              <div class="col p-3"></div>
+
+              <div class="col p-3 " id="toDoList"></div>
+          </div>
+
+          <div class="container mt-5 w-75 border border-4 border-black p-5">
+                <div class="mb-3">
+                  <label class="form-label align-items-center">Enter Your Task</label>
+                  <input type="text" class="form-control" id="txtUserInput" aria-describedby="emailHelp">
+                </div>
+                <button type="submit" class="btn btn-primary" id="btnAddTask">Add Task</button>
+          </div>
+    
+    <script src="./js/app.js"></script>
+</body>
+</html>
